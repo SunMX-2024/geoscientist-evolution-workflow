@@ -1,0 +1,39 @@
+# Local caches
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+*.env
+
+# Temporary and generated outputs
+tmp/
+temp/
+cache/
+*.log
+*.tmp
+
+# Large research outputs
+data/
+outputs/
+figures/
+*.tif
+*.tiff
+*.gpkg
+*.parquet
+*.zip
+*.7z
+
+# Credentials and local secrets
+*.pem
+*.key
+secrets.*
+credentials.*
+token.*
+

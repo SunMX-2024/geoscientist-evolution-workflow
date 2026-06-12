@@ -1,0 +1,49 @@
+version: 1
+purpose: "Personal Python/R scientific figure style preferences learned from user revisions."
+update_rule: "Only update after explicit user approval. Prefer proposed diffs before writing."
+
+python_matplotlib:
+  font_family:
+    preferred: ["Arial", "Helvetica", "DejaVu Sans", "sans-serif"]
+    notes: "Use editable text for SVG/PDF exports."
+  font_sizes:
+    base: null
+    axis_label: null
+    tick_label: null
+    legend: null
+    title: null
+    panel_label: null
+  lines:
+    axis_linewidth: null
+    plot_linewidth: null
+    errorbar_linewidth: null
+    marker_size: null
+  colors:
+    preferred_palettes: []
+    avoid_palettes: []
+    directional_colors:
+      positive: null
+      negative: null
+      neutral: null
+    uncertainty_alpha: null
+  layout:
+    panel_label_style: null
+    legend_style: null
+    colorbar_style: null
+    map_projection_preferences: []
+  export:
+    formats: ["svg", "pdf", "tiff"]
+    dpi: 600
+    bbox_inches: "tight"
+    svg_fonttype: "none"
+    pdf_fonttype: 42
+
+r_ggplot:
+  base_family: "Arial"
+  base_size: null
+  theme_preference: null
+  linewidth: null
+  legend_position: null
+  export_device: ["svglite", "cairo_pdf", "ragg::agg_tiff"]
+
+learned_examples: []
