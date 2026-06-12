@@ -1,6 +1,6 @@
 # GeoCoScientist Evolution Workflow
 
-This private project stores a controlled workflow for evolving research skills and reusable memory across geoscience, ecology, remote-sensing, and manuscript-writing tasks.
+This project stores a controlled workflow for evolving research skills and reusable memory across geoscience, ecology, remote-sensing, and manuscript-writing tasks.
 
 The workflow has one purpose: preserve durable research preferences and tested project patterns without turning temporary project details into long-term rules. It supports three linked skills:
 
